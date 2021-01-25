@@ -1,0 +1,41 @@
+body {
+    background-color: #99ff99;
+}
+
+.border {
+    display: flex;
+    flex-direction: row;
+}
+
+.white {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccffcc;
+    border: 5px solid black;
+    margin: 75px;
+    padding: 15px;
+}
+
+img {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Post {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccffcc;
+    border: 5px solid black;
+    margin: 75px;
+    padding: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    border: 5px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
